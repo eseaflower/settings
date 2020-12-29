@@ -1,0 +1,54 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "window.zoomLevel": 1,
+    "python.linting.enabled": false,
+    "workbench.colorTheme": "One Dark Pro",
+    "python.workspaceSymbols.ctagsPath": "E:\\Program\\ctags\\ctags",
+    "files.trimTrailingWhitespace": true,
+    "jupyter.appendResults": false,
+    "remote.WSL.fileWatcher.polling": true,
+    "remote.SSH.remotePlatform": {
+        "52.157.74.211": "linux"
+    },
+    "editor.renderControlCharacters": false,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "editor.lineNumbers": "relative",
+    "vim.useSystemClipboard": true,
+    "vim.leader": "<space>",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["<leader>", "c"],
+            "commands": ["editor.action.commentLine"],
+            "when": "editorTextFocus && !editorReadonly"
+        },
+        {
+            "before": ["<leader>", "t"],
+            "commands": ["workbench.action.toggleSidebarVisibility"]
+        },
+        {
+            "before": ["<leader>", "f"],
+            "commands": ["revealInExplorer"]
+        },
+        {
+            "before": ["<leader>", "s"],
+            "commands": [
+                "workbench.action.showAllSymbols"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["<leader>", "c"],
+            "commands": ["editor.action.commentLine"],
+            "when": "editorTextFocus && !editorReadonly"
+        }
+    ]
+     // Specifies the folder path containing the tsserver and lib*.d.ts files to use.
+    // "typescript.tsdk": "E:\\Program\\NodeJS\\npm_global\\node_modules\\typescript\\lib"
+}
