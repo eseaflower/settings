@@ -17,38 +17,93 @@
     "vim.leader": "<space>",
     "vim.insertModeKeyBindings": [
         {
-            "before": ["j", "j"],
-            "after": ["<Esc>"]
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
         }
     ],
     "vim.normalModeKeyBindings": [
         {
-            "before": ["<leader>", "c"],
-            "commands": ["editor.action.commentLine"],
+            "before": [
+                "<leader>",
+                "c"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ],
             "when": "editorTextFocus && !editorReadonly"
         },
         {
-            "before": ["<leader>", "t"],
-            "commands": ["workbench.action.toggleSidebarVisibility"]
+            "before": [
+                "<leader>",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
         },
         {
-            "before": ["<leader>", "f"],
-            "commands": ["revealInExplorer"]
+            "before": [
+                "<leader>",
+                "f"
+            ],
+            "commands": [
+                "revealInExplorer"
+            ]
         },
         {
-            "before": ["<leader>", "s"],
+            "before": [
+                "<leader>",
+                "s"
+            ],
             "commands": [
                 "workbench.action.showAllSymbols"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "h"
+            ],
+            "after": [
+                "_"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "l"
+            ],
+            "after": [
+                "$"
             ]
         }
     ],
     "vim.visualModeKeyBindings": [
         {
-            "before": ["<leader>", "c"],
-            "commands": ["editor.action.commentLine"],
+            "before": [
+                "<leader>",
+                "c"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ],
             "when": "editorTextFocus && !editorReadonly"
         }
     ]
-     // Specifies the folder path containing the tsserver and lib*.d.ts files to use.
+    // Specifies the folder path containing the tsserver and lib*.d.ts files to use.
     // "typescript.tsdk": "E:\\Program\\NodeJS\\npm_global\\node_modules\\typescript\\lib"
 }
