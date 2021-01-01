@@ -12,6 +12,7 @@
     },
     "editor.renderControlCharacters": false,
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "vim.easymotion": true,
     "editor.lineNumbers": "relative",
     "vim.useSystemClipboard": true,
     "vim.leader": "<space>",
