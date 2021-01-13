@@ -91,6 +91,16 @@
             "after": [
                 "$"
             ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "r"
+            ],
+            "commands": [
+                "references-view.findReferences"
+            ],
+            "when": "editorHasReferenceProvider"
         }
     ],
     "vim.visualModeKeyBindings": [
@@ -103,6 +113,24 @@
                 "editor.action.commentLine"
             ],
             "when": "editorTextFocus && !editorReadonly"
+        },
+        {
+            "before": [
+                "<leader>",
+                "h"
+            ],
+            "after": [
+                "_"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "l"
+            ],
+            "after": [
+                "$"
+            ]
         }
     ]
     // Specifies the folder path containing the tsserver and lib*.d.ts files to use.
