@@ -1,6 +1,5 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "window.zoomLevel": 1,
     "python.linting.enabled": false,
     "workbench.colorTheme": "One Dark Pro",
     "python.workspaceSymbols.ctagsPath": "E:\\Program\\ctags\\ctags",
@@ -12,6 +11,7 @@
     },
     "editor.renderControlCharacters": false,
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "vim.highlightedyank.enable": true,
     "vim.easymotion": true,
     "editor.lineNumbers": "relative",
     "vim.useSystemClipboard": true,
@@ -132,7 +132,12 @@
                 "$"
             ]
         }
-    ]
+    ],
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "window.zoomLevel": 1,
     // Specifies the folder path containing the tsserver and lib*.d.ts files to use.
     // "typescript.tsdk": "E:\\Program\\NodeJS\\npm_global\\node_modules\\typescript\\lib"
 }
